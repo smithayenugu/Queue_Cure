@@ -16,7 +16,7 @@ export function SocketProvider({ children }) {
   });
 
   useEffect(() => {
-    const newSocket = io('http://localhost:3000', {
+    const newSocket = io(import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000', {
       transports: ['websocket', 'polling']
     });
 
