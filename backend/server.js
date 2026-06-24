@@ -11,7 +11,7 @@ const io = new Server(server, {
       "http://localhost:5173",
       "http://localhost:3000",
       "http://127.0.0.1:5173",
-      "https://queue-cure.vercel.app" 
+      "https://queue-cure-chi.vercel.app"
     ],
     methods: ["GET", "POST"],
     credentials: true
